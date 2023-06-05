@@ -1,8 +1,9 @@
+import React from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Offcanvas from "react-bootstrap/Offcanvas";
-import React from "react";
+
 import "../css/navbar.css";
 
 import Loaded from "./Loaded";
@@ -23,7 +24,7 @@ const NavbarHome = () => {
             placement="end">
             <Offcanvas.Header closeButton>
               <Offcanvas.Title id="offcanvasNavbarLabel-expand-md">
-                Offcanvas
+                <Loaded />
               </Offcanvas.Title>
             </Offcanvas.Header>
             <Offcanvas.Body>
@@ -31,9 +32,9 @@ const NavbarHome = () => {
                 <Nav.Link href="#home" id="links">
                   Home
                 </Nav.Link>
-                {/* <Nav.Link href="#features" id="links">
+                <Nav.Link href="#features" id="links">
                   About me
-                </Nav.Link> */}
+                </Nav.Link>
                 <Nav.Link href="#pricing" id="links">
                   Contact
                 </Nav.Link>
@@ -42,6 +43,19 @@ const NavbarHome = () => {
           </Navbar.Offcanvas>
         </Container>
       </Navbar>
+      {/* <Navbar bg="light" expand="lg">
+        <Navbar.Brand href="#home">
+          <Loaded />
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="mr-auto">
+            <Nav.Link href="#about">About</Nav.Link>
+            <Nav.Link href="#projects">Projects</Nav.Link>
+            <Nav.Link href="#contact">Contact</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Navbar> */}
     </>
   );
 };

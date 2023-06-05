@@ -30,3 +30,7 @@
   border-radius: 5px;
   font-size: 16px;
 }
+
+.technology-item:hover {
+  background-color: #03dac6;
+}

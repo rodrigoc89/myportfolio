@@ -5,6 +5,7 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Projects from "./components/Projects";
 import Technologies from "./components/Technologies";
+import Footer from "./components/Footer";
 
 import "./css/App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -17,6 +18,7 @@ function App() {
       <About />
       <Technologies />
       <Projects />
+      <Footer />
     </>
   );
 }

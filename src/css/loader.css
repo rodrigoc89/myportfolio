@@ -1,4 +1,4 @@
-.loader span {
+/* .loader span {
   color: #03dac6;
   text-shadow: 0 0 0 #03dac6;
   -webkit-animation: loading 1s ease-in-out infinite alternate;
@@ -7,10 +7,32 @@
 }
 @-webkit-keyframes loading {
   to {
-    text-shadow: 20px 0 70px #ff0266;
-    color: #ff0266;
+    text-shadow: 20px 0 70px #fbfbfb;
+    color: #ffffff;
+  }
+} */
+
+.loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loader .m {
+  color: #03dac6;
+  text-shadow: 0 0 0 #03dac6;
+  -webkit-animation: loading 1s ease-in-out infinite alternate;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+}
+
+@-webkit-keyframes loading {
+  to {
+    text-shadow: 20px 0 70px #ffffff;
+    color: #ffffff;
   }
 }
+
 .loader span:nth-child(2) {
   -webkit-animation-delay: 0.1s;
 }
