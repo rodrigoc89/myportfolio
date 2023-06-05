@@ -7,6 +7,7 @@ function Projects() {
     <section id="projects" className="projects">
       <div className="container">
         <h2 className="section-title">Mis Proyectos</h2>
+        <hr />
         <div className="projects-list">
           {projectsData.map((project, index) => (
             <div key={index} className="project-card">

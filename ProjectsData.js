@@ -15,7 +15,18 @@ export const projectsData = [
     description: "Descripción del Proyecto 2",
     image: "https://i.postimg.cc/5N53kqDC/Xgames.png",
     techStack: "HTML5, JavaScript, React",
-    demoLink: "https://example.com/proyecto2",
+    demoLink: "https://xgames-eight.vercel.app/",
     sourceLink: "https://github.com/rodrigoc89/xgames-RodrigoCastellanos.git",
+  },
+
+  {
+    id: 3,
+    title: "Ecommerce",
+    description: "Descripción del Proyecto 2",
+    image: "https://i.postimg.cc/nzBRtLGS/ecommerce-javascript.png",
+    techStack: "HTML5, JavaScript, React",
+    demoLink: "https://ecommercejavascript.vercel.app/",
+    sourceLink:
+      "https://github.com/rodrigoc89/ProyectoFinal-JavaScript-RodrigoCastellanos.git",
   },
 ];

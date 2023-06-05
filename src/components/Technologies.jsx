@@ -17,6 +17,7 @@ function Technologies() {
     <section id="technologies" className="technologies">
       <div className="container">
         <h2 className="section-title">Tecnologías</h2>
+        <hr />
         <ul className="technology-list">
           {technologies.map((technology, index) => (
             <li key={index} className="technology-item">
