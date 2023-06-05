@@ -1,9 +1,9 @@
 /* Footer.css */
 
 .footer {
-  background-color: #f8f8f8;
+  background-color: #282727;
   padding: 40px 0;
-  color: #333;
+  color: #ffffff;
 }
 
 .footer-info h4 {
@@ -23,7 +23,7 @@
 }
 
 .social-icons a {
-  color: #333;
+  color: #ffffff;
   font-size: 20px;
   margin-right: 10px;
 }
@@ -31,7 +31,7 @@
 .footer-text {
   margin-top: 20px;
   font-size: 14px;
-  color: #666;
+  color: #ffffff;
 }
 
 /* Media queries for responsiveness */

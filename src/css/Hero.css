@@ -1,7 +1,8 @@
 /* Hero.css */
 .hero {
-  background-color: #f2f2f2;
+  background-color: #000000;
   padding: 100px 0;
+  color: #ffffff;
 }
 
 .hero-content {
@@ -22,7 +23,7 @@
 }
 
 .cta-btn:hover {
-  background-color: #555;
+  background-color: red;
 }
 
 @media (max-width: 768px) {

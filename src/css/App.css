@@ -9,3 +9,10 @@
     padding: 20px;
   }
 }
+
+.icon-tabler {
+  color: red;
+  width: 32px;
+  height: 32px;
+  stroke-width: 1.25;
+}

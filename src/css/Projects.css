@@ -1,8 +1,9 @@
 /* Projects.css */
 
 .projects {
-  background-color: #fff;
+  background-color: #000000;
   padding: 100px 0;
+  color: #ffffff;
 }
 
 .container {
@@ -24,7 +25,7 @@
 }
 
 .project-card {
-  background-color: #fff;
+  background-color: #4a4848;
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -67,7 +68,7 @@
 }
 
 .project-links a:hover {
-  background-color: #1f1f1f;
+  background-color: red;
   color: #fff;
 }
 

@@ -1,7 +1,7 @@
 import "../css/loader.css";
-
+import Image from "react-bootstrap/Image";
 const Loaded = () => {
-  const text = " RODRIGO J. CASTELLANOS | DEVELOPER FULL STACK";
+  const text = " Bienvenido a mi portafolio";
 
   const loader = Array.from(text).map((char, index) => (
     <span key={index} className="m">

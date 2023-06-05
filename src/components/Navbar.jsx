@@ -1,63 +1,55 @@
-import React from "react";
+import Button from "react-bootstrap/Button";
 import Container from "react-bootstrap/Container";
+import Form from "react-bootstrap/Form";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import Offcanvas from "react-bootstrap/Offcanvas";
+import NavDropdown from "react-bootstrap/NavDropdown";
 
-import "../css/navbar.css";
-
-import Loaded from "./Loaded";
-import "../css/Navbar.css";
-
-const NavbarHome = () => {
+function NavScrollExample() {
   return (
-    <>
-      <Navbar bg="dark" variant="dark" expand="md" fixed="top">
-        <Container fluid>
-          <Navbar.Brand href="#Home">
-            <Loaded />
-          </Navbar.Brand>
-          <Navbar.Toggle aria-controls="offcanvasNavbar-expand-md" />
-          <Navbar.Offcanvas
-            id="offcanvasNavbar-expand-md"
-            aria-labelledby="offcanvasNavbarLabel-expand-md"
-            placement="end">
-            <Offcanvas.Header closeButton>
-              <Offcanvas.Title id="offcanvasNavbarLabel-expand-md">
-                <Loaded />
-              </Offcanvas.Title>
-            </Offcanvas.Header>
-            <Offcanvas.Body>
-              <Nav className="justify-content-end flex-grow-1 pe-3">
-                <Nav.Link href="#home" id="links">
-                  Home
-                </Nav.Link>
-                <Nav.Link href="#features" id="links">
-                  About me
-                </Nav.Link>
-                <Nav.Link href="#pricing" id="links">
-                  Contact
-                </Nav.Link>
-              </Nav>
-            </Offcanvas.Body>
-          </Navbar.Offcanvas>
-        </Container>
-      </Navbar>
-      {/* <Navbar bg="light" expand="lg">
+    <Navbar bg="dark" variant="dark" expand="lg">
+      <Container>
         <Navbar.Brand href="#home">
-          <Loaded />
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="icon icon-tabler icon-tabler-terminal-2"
+            width="32"
+            height="32"
+            viewBox="0 0 24 24"
+            stroke-width="2"
+            stroke="currentColor"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <path d="M8 9l3 3l-3 3"></path>
+            <path d="M13 15l3 0"></path>
+            <path d="M3 4m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z"></path>
+          </svg>
+          Rodrigo J. Castellanos
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="mr-auto">
-            <Nav.Link href="#about">About</Nav.Link>
-            <Nav.Link href="#projects">Projects</Nav.Link>
-            <Nav.Link href="#contact">Contact</Nav.Link>
-          </Nav>
+        <Navbar.Toggle />
+        <Navbar.Collapse className="justify-content-end">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="icon icon-tabler icon-tabler-prompt"
+            width="30"
+            height="30"
+            viewBox="0 0 24 24"
+            stroke-width="2"
+            stroke="currentColor"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <path d="M5 7l5 5l-5 5"></path>
+            <path d="M13 17l6 0"></path>
+          </svg>
+          <Navbar.Text>Developer Full Stack Jr.</Navbar.Text>
         </Navbar.Collapse>
-      </Navbar> */}
-    </>
+      </Container>
+    </Navbar>
   );
-};
+}
 
-export default NavbarHome;
+export default NavScrollExample;
