@@ -1,4 +1,4 @@
-.nav p,
+/* .nav p,
 .slider p {
   font-family: "Josefin Sans", sans-serif;
   font-size: 5vw;
@@ -10,13 +10,45 @@
   z-index: 3;
 }
 
-p {
+#links {
   display: block;
   color: #03dac6;
   font-family: "Josefin Sans", sans-serif;
 }
 
-p:hover {
-  /* transform: translate3d(0, -5px, 10px); */
+#links:hover {
+  transform: translate3d(0, -5px, 10px);
   color: #ff0266;
+} */
+
+/* Navbar.css */
+.navbar {
+  background-color: #1f1f1f;
+  padding: 20px;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+.nav-menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-item {
+  margin-right: 20px;
+}
+
+.nav-item a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.nav-item a:hover {
+  color: #9effff;
 }

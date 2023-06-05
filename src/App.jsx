@@ -1,10 +1,22 @@
-import Home from "./home";
+import { Route, Routes } from "react-router";
+
+import NavbarHome from "./components/Navbar";
+import Home from "./components/Home";
+import About from "./components/About";
+import Projects from "./components/Projects";
+import Technologies from "./components/Technologies";
+
+import "./css/App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
     <>
+      <NavbarHome />
       <Home />
+      <About />
+      <Technologies />
+      <Projects />
     </>
   );
 }

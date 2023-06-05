@@ -1,6 +1,6 @@
 .loader span {
-  color: #faebd7;
-  text-shadow: 0 0 0 #faebd7;
+  color: #03dac6;
+  text-shadow: 0 0 0 #03dac6;
   -webkit-animation: loading 1s ease-in-out infinite alternate;
   font-family: "Josefin Sans", sans-serif;
   font-size: 20px;
