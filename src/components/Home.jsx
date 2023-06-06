@@ -12,7 +12,7 @@ const Home = () => {
             Soy un desarrollador web apasionado por crear experiencias
             digitales.
           </p>
-          <a href="#contact" className="cta-btn">
+          <a href="#footer" className="cta-btn">
             Contacto
           </a>
         </div>

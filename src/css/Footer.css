@@ -1,5 +1,3 @@
-/* Footer.css */
-
 .footer {
   background-color: #282727;
   padding: 40px 0;
@@ -34,7 +32,6 @@
   color: #ffffff;
 }
 
-/* Media queries for responsiveness */
 @media (max-width: 768px) {
   .footer-info,
   .footer-social {

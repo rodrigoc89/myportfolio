@@ -1,9 +1,7 @@
-/* App.css */
 .App {
   font-family: Arial, sans-serif;
 }
 
-/* Media queries for responsiveness */
 @media (max-width: 768px) {
   .App {
     padding: 20px;

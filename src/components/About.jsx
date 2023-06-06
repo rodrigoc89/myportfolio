@@ -10,14 +10,10 @@ const About = () => {
         <div className="about-content">
           <div className="about-text">
             <p>
-              Soy un desarrollador web con experiencia en tecnologías como HTML,
-              CSS, JavaScript y React. Me apasiona crear soluciones web que sean
-              intuitivas, elegantes y centradas en el usuario.
+            Permítanme presentarme, mi nombre es Rodrigo Joaquín Castellanos, tengo 33 años y soy de Santiago del Estero, Argentina. Me desempeño como Desarrollador Full Stack Jr. Realicé mi formación como programador en el bootcamp de Plataforma 5, además de haber completado otros cursos de JavaScript y React.
             </p>
             <p>
-              Me encanta aprender y estar al día con las últimas tendencias y
-              tecnologías del desarrollo web. Estoy disponible para nuevos
-              proyectos y oportunidades laborales.
+              Además de adquirir conocimientos sobre backend, front y GitHub, también desarrollé habilidades blandas como la comunicación efectiva, el pensamiento crítico, el trabajo en equipo, el uso de Scrum y trabajé con Figma y Trello.
             </p>
           </div>
           <div className="about-image">

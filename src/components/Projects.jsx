@@ -18,7 +18,7 @@ function Projects() {
               />
               <h3 className="project-title">{project.title}</h3>
               <p className="project-description">{project.description}</p>
-              <p className="project-tech">Tecnologías: {project.techStack}</p>
+              <p className="project-tech">Tecnologías: <span>{project.techStack.join(" ")}</span> </p>
               <div className="project-links">
                 <a
                   href={project.demoLink}

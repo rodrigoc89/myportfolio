@@ -57,7 +57,6 @@
   }
 }
 
-/* Media query adicional para pantallas muy grandes */
 @media (min-width: 1440px) {
   .loader .m {
     font-size: 50px;

@@ -1,5 +1,3 @@
-/* About.css */
-
 .about {
   background-color: #000000;
   padding: 100px 0;
@@ -41,7 +39,6 @@
   border-radius: 5px;
 }
 
-/* Media queries for responsiveness */
 @media (max-width: 768px) {
   .about-content {
     flex-direction: column;

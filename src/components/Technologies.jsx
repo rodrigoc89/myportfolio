@@ -7,6 +7,7 @@ function Technologies() {
     "CSS",
     "JavaScript",
     "React",
+    "Redux",
     "Node.js",
     "PostgreSQL",
     "Sequelize",
