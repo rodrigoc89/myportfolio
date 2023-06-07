@@ -7,6 +7,7 @@ import Footer from "./components/Footer";
 
 import "./css/App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "./css/icons.css";
 
 function App() {
   return (

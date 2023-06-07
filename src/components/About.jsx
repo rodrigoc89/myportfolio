@@ -10,10 +10,26 @@ const About = () => {
         <div className="about-content">
           <div className="about-text">
             <p>
-            Permítanme presentarme, mi nombre es Rodrigo Joaquín Castellanos, tengo 33 años y soy de Santiago del Estero, Argentina. Me desempeño como Desarrollador Full Stack Jr. Realicé mi formación como programador en el bootcamp de Plataforma 5, además de haber completado otros cursos de JavaScript y React.
+              Permítanme presentarme, soy Rodrigo Joaquín Castellanos, un
+              Desarrollador Full Stack Jr. de 33 años proveniente de Santiago
+              del Estero, Argentina. He obtenido mi formación como programador
+              en el bootcamp de Plataforma 5, donde adquirí habilidades en
+              JavaScript y React, así como también he completado otros cursos
+              relacionados.
             </p>
             <p>
-              Además de adquirir conocimientos sobre backend, front y GitHub, también desarrollé habilidades blandas como la comunicación efectiva, el pensamiento crítico, el trabajo en equipo, el uso de Scrum y trabajé con Figma y Trello.
+              Además de mis conocimientos en desarrollo backend y frontend, y mi
+              experiencia con GitHub, he desarrollado habilidades
+              interpersonales como la comunicación efectiva, el pensamiento
+              crítico y el trabajo en equipo. También he trabajado con
+              metodologías ágiles como Scrum y he utilizado herramientas como
+              Figma y Trello para la gestión de proyectos.
+            </p>
+            <p>
+              Estoy apasionado por el desarrollo de aplicaciones y siempre estoy
+              buscando oportunidades para aprender y crecer en esta industria
+              dinámica. Estoy emocionado por contribuir con mi experiencia y
+              habilidades en proyectos desafiantes.
             </p>
           </div>
           <div className="about-image">

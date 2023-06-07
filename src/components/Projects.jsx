@@ -1,6 +1,7 @@
 import React from "react";
 import "../css/Projects.css";
 import { projectsData } from "../../ProjectsData";
+import svg from "../assets/svg";
 
 function Projects() {
   return (
@@ -18,19 +19,23 @@ function Projects() {
               />
               <h3 className="project-title">{project.title}</h3>
               <p className="project-description">{project.description}</p>
-              <p className="project-tech">Tecnologías: <span>{project.techStack.join(" ")}</span> </p>
+              <p className="project-tech">
+                Tecnologías: <span>{project.techStack.join(" ")}</span>{" "}
+              </p>
               <div className="project-links">
                 <a
+                  className="project-icons"
                   href={project.demoLink}
                   target="_blank"
                   rel="noopener noreferrer">
-                  Demo
+                  <span>{svg.Link}</span>
                 </a>
                 <a
+                  className="project-icons"
                   href={project.sourceLink}
                   target="_blank"
                   rel="noopener noreferrer">
-                  Código fuente
+                  {svg.GitHub}
                 </a>
               </div>
             </div>

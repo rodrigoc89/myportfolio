@@ -31,8 +31,11 @@
   margin: 10px;
   border-radius: 5px;
   font-size: 16px;
+  transition-duration: 500ms;
 }
 
 .technology-item:hover {
-  background-color: red;
+  background-color: #00877e;
+  cursor: pointer;
+  transition-duration: 500ms;
 }

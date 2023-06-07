@@ -23,10 +23,10 @@
 }
 
 .project-card {
-  background-color: #282727;
+  background-color: #000000;
   padding: 20px;
   border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 5px 4px #00877e;
 }
 .project-image {
   width: 100%;
@@ -50,12 +50,10 @@
   color: #ffffff;
   margin-top: 10px;
 }
-.project-tech span{
+.project-tech span {
   font-size: 14px;
   color: #03dac6;
   margin-top: 10px;
-  /* border-radius: 3px;
-  border-style: dotted; */
 }
 
 .project-links {
@@ -64,7 +62,7 @@
 
 .project-links a {
   margin-right: 10px;
-  color: #1f1f1f;
+  /* height: 40px; */
   background-color: #03dac6;
   padding: 8px 16px;
   border-radius: 5px;
@@ -73,9 +71,14 @@
 }
 
 .project-links a:hover {
-  background-color: red;
+  background-color: #00877e;
   color: #fff;
+  cursor: pointer;
 }
+/* .project-icons :hover {
+  color: white;
+  cursor: pointer;
+} */
 
 @media (max-width: 768px) {
   .projects-list {
