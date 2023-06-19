@@ -20,6 +20,7 @@
   border-radius: 5px;
   text-decoration: none;
   transition-duration: 1s;
+  margin: 5px;
 }
 
 .cta-btn:hover {
