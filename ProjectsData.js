@@ -2,8 +2,7 @@ export const projectsData = [
   {
     id: 1,
     title: "IES | 2022",
-    description:
-      "Web realizada para la empresa IES TECH SOLUTIONS , que brinda servicios de Internet y Servicios de Electronica",
+    description: "Web  | IES TECH SOLUTIONS",
     image:
       "https://i.postimg.cc/Rh6H5FwV/Captura-desde-2023-06-06-16-32-53.png",
     techStack: ["HTML", "CSS"],
@@ -14,8 +13,7 @@ export const projectsData = [
   {
     id: 2,
     title: "Ecommerce | 2022",
-    description:
-      "Proyecto de Ecommerce realizado durante el curso de Javascript de CODERHOUSE",
+    description: "Proyecto  Ecommerce | CODERHOUSE",
     image: "https://i.postimg.cc/nzBRtLGS/ecommerce-javascript.png",
     techStack: ["HTML5", "CSS", "JavaScript"],
     demoLink: "https://ecommercejavascript.vercel.app/",
@@ -25,8 +23,7 @@ export const projectsData = [
   {
     id: 3,
     title: "XGAMES | 2022",
-    description:
-      "Proyecto de Ecommerce realizado durante el curso de React de CODERHOUSE",
+    description: "Proyecto Ecommerce | CODERHOUSE",
     image: "https://i.postimg.cc/5N53kqDC/Xgames.png",
     techStack: ["HTML5", "CSS", "JavaScript", "React"],
     demoLink: "https://xgames-eight.vercel.app/",
@@ -52,5 +49,26 @@ export const projectsData = [
       "https://i.postimg.cc/fLXB3ydK/Captura-desde-2023-04-13-17-59-22.png",
     demoLink: "https://house-of-dev.vercel.app/",
     sourceLink: "https://github.com/cristian-23/House-of-Dev.git",
+  },
+  {
+    id: 4,
+    title: "FITWAY | 2023",
+    description: "Aplicación mobile en desarrollo",
+    techStack: [
+      "Nodejs",
+      "Postgresql",
+      "Express",
+      "Sequelize",
+      "JWT",
+      "javascript",
+      "React Native",
+      "Expo",
+      "Redux",
+      "Axios",
+      "css",
+    ],
+    image: "https://i.postimg.cc/ZRHh1pd5/Fitway.png",
+    demoLink: "https://github.com/JuanchiiGomezZ/Fitway-prototype-frontend.git",
+    sourceLink: "https://github.com/rodrigoc89/Fitway-Prototype-Backend.git",
   },
 ];
