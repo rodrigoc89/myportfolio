@@ -68,7 +68,7 @@ export const projectsData = [
       "css",
     ],
     image: "https://i.postimg.cc/ZRHh1pd5/Fitway.png",
-    demoLink: "https://github.com/JuanchiiGomezZ/Fitway-prototype-frontend.git",
-    sourceLink: "https://github.com/rodrigoc89/Fitway-Prototype-Backend.git",
+    // demoLink: "https://github.com/JuanchiiGomezZ/Fitway-prototype-frontend.git",
+    // sourceLink: "https://github.com/rodrigoc89/Fitway-Prototype-Backend.git",
   },
 ];
