@@ -52,7 +52,7 @@ export const projectsData = [
   },
   {
     id: 4,
-    title: "FITWAY | 2023",
+    title: "LIFTWAY | 2023",
     description: "Aplicación mobile en desarrollo",
     techStack: [
       "Nodejs",
@@ -68,7 +68,18 @@ export const projectsData = [
       "css",
     ],
     image: "https://i.postimg.cc/ZRHh1pd5/Fitway.png",
-    // demoLink: "https://github.com/JuanchiiGomezZ/Fitway-prototype-frontend.git",
-    sourceLink: "https://github.com/rodrigoc89/Fitway-Prototype-Backend.git",
+    // demoLink: "",
+    // sourceLink: "",
+  },
+  {
+    id: 5,
+    title: "Sistema de gestion de expedientes | 2023",
+    description:
+      "Desarrollo frontend del sistema de expedientes de la Municipalidad de Monte Quemado",
+    techStack: ["javascript", "React", "Redux", "Bootstrap", "Axios", "JWT"],
+    image:
+      "https://i.postimg.cc/9MVGVRVg/Captura-desde-2023-12-21-15-12-56.png",
+    // demoLink: "",
+    // sourceLink: "",
   },
 ];

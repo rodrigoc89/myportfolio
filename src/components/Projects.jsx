@@ -22,22 +22,26 @@ function Projects() {
               <p className="project-tech">
                 Tecnologías: <span>{project.techStack.join(" ")}</span>{" "}
               </p>
-              <div className="project-links">
-                <a
-                  className="project-icons"
-                  href={project.demoLink}
-                  target="_blank"
-                  rel="noopener noreferrer">
-                  <span>{svg.Link}</span>
-                </a>
-                <a
-                  className="project-icons"
-                  href={project.sourceLink}
-                  target="_blank"
-                  rel="noopener noreferrer">
-                  {svg.GitHub}
-                </a>
-              </div>
+              {project.demoLink && project.sourceLink ? (
+                <div className="project-links">
+                  <a
+                    className="project-icons"
+                    href={project.demoLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <span>{svg.Link}</span>
+                  </a>
+                  <a
+                    className="project-icons"
+                    href={project.sourceLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {svg.GitHub}
+                  </a>
+                </div>
+              ) : null}
             </div>
           ))}
         </div>
