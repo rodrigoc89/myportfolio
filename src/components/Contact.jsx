@@ -5,7 +5,6 @@ function Contact() {
   return (
     <section id="contact" className="contact">
       <h2>Contacto</h2>
-      {/* Formulario de contacto */}
     </section>
   );
 }
