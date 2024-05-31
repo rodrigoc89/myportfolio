@@ -22,11 +22,11 @@ function Projects() {
               <p className="project-tech">
                 Tecnologías: <span>{project.techStack.join(" ")}</span>{" "}
               </p>
-              {project.demoLink && project.sourceLink ? (
+              {project.link && project.sourceLink ? (
                 <div className="project-links">
                   <a
                     className="project-icons"
-                    href={project.demoLink}
+                    href={project.link}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
